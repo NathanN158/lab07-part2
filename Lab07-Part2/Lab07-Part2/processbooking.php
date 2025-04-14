@@ -22,28 +22,28 @@
             echo "<p>Error: Enter data in the <a href=\"register.html\">form</a></p>";
         }
         if (isset ($_POST["lastname"])) {
-            $firstname = $_POST["lastname"];
+            $lastname = $_POST["lastname"];
             echo "<p> This is a test: Your first name is $lastname </p>";
         }
         else {
             echo "<p>Error: Enter data in the <a href=\"register.html\">form</a></p>";
         }
         if (isset ($_POST["age"])) {
-            $firstname = $_POST["age"];
+            $age = $_POST["age"];
             echo "<p> This is a test: Your first name is $age </p>";
         }
         else {
             echo "<p>Error: Enter data in the <a href=\"register.html\">form</a></p>";
         }
         if (isset ($_POST["food"])) {
-            $firstname = $_POST["food"];
+            $food = $_POST["food"];
             echo "<p> This is a test: Your first name is $food </p>";
         }
         else {
             echo "<p>Error: Enter data in the <a href=\"register.html\">form</a></p>";
         }
         if (isset ($_POST["partySize"])) {
-            $firstname = $_POST["partySize"];
+            $partySize = $_POST["partySize"];
             echo "<p> This is a test: Your first name is $partySize </p>";
         }
         else {
