@@ -76,11 +76,11 @@
 	<p>
 	<!-- Firefox does not support the HTML5 date input yet so we need to use text -->
 	<label for="date">Date</label>
-			<input type="text" id="date" name="bookday" maxlength="10" size="10" />
+			<input type="text" id="date" name="bookday" maxlength="10" size="10" pattern="(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/\d{4}" placeholder="DD-MM-YYYY"/>
 	</p>
 	<p>
 		<label for="partysize">Number of travellers:</label>
-			<input type="text" id="partysize" name="partysize">
+			<input type="number" id="partysize" name="partysize" >
 	</p>
 </fieldset>
   <div id="bottom"> </div>
